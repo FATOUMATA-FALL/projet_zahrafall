@@ -1,0 +1,1056 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+    body {
+        font-family: raleway, sans-serif;
+        background-color: white;
+        max-width: 1400px;
+        margin: auto 25px;
+
+    }
+
+    header.entete {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        width: 62px;
+        height: 19px;
+    }
+
+    .titreMenu {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav.menu {
+        width: 97%;
+        height: 40px;
+
+    }
+
+    .menu ul {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .menu .nav-item {
+        list-style: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        display: flex;
+        min-height: 40px;
+        align-items: center;
+    }
+
+    .menu .nav-item:hover {
+        border-top: 2px solid #0065FC;
+    }
+
+    a:hover {
+        color: #0065FC;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    h1.boite-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+        width: 47%;
+        height: 26px;
+    }
+
+    p.boite-description {
+        height: 19px;
+        width: 27%;
+        margin-top: 8px;
+        margin-bottom: 25px;
+        padding-left: 0px;
+
+
+    }
+
+    .boite {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    i.fa-solid.fa-location-dot.iconeLieu {
+        color: black;
+        background-color: #F2F2F2;
+        width: 50px;
+        height: 49px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px 0px 0px 15px;
+
+    }
+
+    .form {
+        width: 50%;
+        height: 49px;
+        display: flex;
+    }
+
+    .search-input {
+        width: 50%;
+        height: 49px;
+        display: flex;
+    }
+
+    input#ville {
+        text-align: center;
+        height: 47px;
+        width: 84%;
+        box-shadow: 1px 1px 1px 1px #f2f2f2;
+        font-size: 18px;
+        border: 1px #F2F2F2;
+        font-weight: bold;
+        padding: 0px;
+    }
+
+    .search-ville {
+        height: 49px;
+        width: 50%;
+    }
+
+    i.fa-solid.fa-magnifying-glass.iconeRecherche {
+        font-size: 25px;
+        width: 15%;
+        height: 49px;
+        color: #F2F2F2;
+        background-color: #0065FC;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .bouton {
+        background-color: #0065FC;
+        border-radius: 0px 15px 15px 0px;
+        width: 42%;
+        height: 48px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        padding: 0px;
+
+    }
+
+    .boite_filtre {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p.titre {
+        font-size: 18px;
+        height: 21px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .filtre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 72%;
+    }
+
+    .filter-item {
+        width: 21%;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border: 2px solid #D9D9D9;
+        border-radius: 25px;
+        padding-left: 10px;
+
+    }
+
+    .filter-item:hover {
+        background-color: #DEEBFF;
+    }
+
+    p.eco {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p.fami {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p.romance {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p.animaux {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    i.fa-solid.fa-money-bill-wave.eco {
+        color: #0065FC;
+        width: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+
+    }
+
+    i.fa-solid.fa-person.fami {
+        color: #0065FC;
+        width: 13px;
+        height: 22px;
+        margin-top: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+
+    i.fa-sharp.fa-solid.fa-heart.amour {
+        color: #0065FC;
+        width: 22px;
+        height: 18px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+
+    i.fa-solid.fa-dog.animaux {
+        color: #0065FC;
+        padding-right: 3px;
+        width: 22px;
+        height: 22px;
+        padding-right: 4px;
+    }
+
+    .logement {
+        width: 90%;
+        height: 19px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    p.log {
+        height: 19px;
+        font-size: 16px;
+
+    }
+
+    i.fa-solid.fa-info.logement {
+        color: #0065FC;
+        border: 1px solid #D9D9D9;
+        height: 24px;
+        width: 24px;
+        text-align: center;
+        border-radius: 50%;
+        margin-top: 26px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 12px;
+        padding-top: 3px;
+
+    }
+
+    .containerMain {
+        width: 100%;
+        height: 626px;
+        display: flex;
+        margin-left: 10px;
+
+    }
+
+    .containerHebergement {
+        height: 622px;
+        width: 97%;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        border-radius: 20px;
+        padding-left: 15px;
+    }
+
+    .boite1 {
+        width: 100%;
+        height: 227px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .cards {
+        text-decoration: none;
+    }
+
+    .cards:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    img.hebergCardImage {
+        height: 125px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+
+
+    }
+
+    .hebergCard {
+        height: 205px;
+        width: 100%;
+        background-color: white;
+        border: 3px solid #FFFFFF;
+        border-radius: 20px;
+        margin-right: 20px;
+
+
+    }
+
+    .hebergCardDetail {
+        height: 70px;
+        width: 100%;
+        padding-left: 8px;
+
+    }
+
+    h2.herberg {
+        width: 42%;
+        font-size: 22px;
+        height: 26px;
+        margin-bottom: 18px;
+        margin-top: 25px;
+        padding-left: 22px;
+
+
+    }
+
+    h3.titreHebergCard {
+        height: 15px;
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 5px;
+    }
+
+    .hebergCardDesc {
+        width: 85%;
+        height: 15px;
+        padding-bottom: 8px;
+        margin: 0px;
+        padding-top: 8px;
+        font-size: 16px;
+        padding-left: 0px;
+    }
+
+    .etoile {
+        width: 12px;
+        height: 12px;
+        padding-right: 3px;
+    }
+
+    .icone {
+        color: #0065FC;
+    }
+
+    .etoile-gris {
+        color: #F2F2F2;
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .boite2 {
+        width: 100%;
+        height: 227px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    p {
+        font-size: 18px;
+        padding-left: 10px;
+
+    }
+
+    aside.lesPopulaire {
+        width: 53%;
+        height: 610px;
+        margin-left: 40px;
+        padding-left: 37px;
+        margin-right: 25px;
+        padding-right: 37px;
+        margin-right: 15px;
+        padding-top: 15px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+
+    }
+
+    .partieTitrePop {
+        width: 95%;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    h2.populaire {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        height: 16px;
+        width: 55%;
+
+    }
+
+    i.fa-solid.fa-chart-line.lesPop {
+        font-size: 22px;
+        color: #0065FC;
+        margin-top: 10px;
+    }
+
+
+    .populaireCard {
+        width: 87%;
+        height: 144px;
+        margin-bottom: 20px;
+        margin-left: 17px;
+        border: 3px solid #FFFFFF;
+        background-color: white;
+        margin-top: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaireCardImagContainer {
+        height: 144px;
+        width: 84%;
+    }
+
+    .populaireCardImag {
+        object-fit: cover;
+        height: 144px;
+        width: 84%;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .populaireCardDetail {
+        height: 134px;
+        width: 83%;
+        padding-top: 10px;
+    }
+
+
+    .titrePopulaireCard {
+        font-size: 16px;
+        margin-bottom: 10px;
+        width: 95%;
+        margin-top: 0px;
+        height: 38px;
+    }
+
+    p.populaireCardDesc {
+        margin-bottom: 45px;
+        margin-top: 0px;
+        width: 100%;
+        height: 15px;
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    section.container2 {
+
+        width: 100%;
+        height: 477px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    h2.actMarseille {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        width: 20%;
+        height: 30px;
+
+    }
+
+    .boiteActivite {
+        width: 100%;
+        height: 430px;
+        display: flex;
+        justify-content: space-around
+    }
+
+
+    .actMarseilleCard {
+        width: 24%;
+        height: 430px;
+        margin-right: 43px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: 0px 0px 0px 1px #eeeef3;
+
+    }
+
+    .actMarseilleCardImag {
+        width: 100%;
+        height: 374px;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+
+    }
+
+    h3.titreActMarseilleCard {
+        font-size: 15px;
+        margin-left: 15px;
+
+    }
+
+    footer.piedPage {
+        width: 100%;
+        height: 203px;
+
+        margin: 8px;
+        margin-top: 40px;
+        margin-left: 25px;
+
+
+    }
+
+    .boiteFooter {
+        width: 96%;
+        height: 191px;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blocFooter {
+        width: 20%;
+        height: 150px;
+
+    }
+
+    h3.footer {
+        font-size: 18px;
+        margin-top: 20px;
+        height: 21px;
+
+
+    }
+
+    p.textFooter {
+        font-size: 16px;
+        height: 95px;
+        line-height: 2em;
+        margin: 0px;
+        padding: 0px;
+
+
+    }
+
+    /* Code pour format de tablette  */
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0px 18px;
+        }
+
+        header.entete {
+            width: auto;
+        }
+
+        nav.menu {
+            width: 100%;
+            display: block;
+        }
+
+        .boite {
+            width: 95%;
+            margin-top: 23px;
+
+        }
+
+        h1.boite-title {
+            font-size: 20px;
+            width: 100%;
+        }
+
+        p.boite-description {
+            width: 100%;
+
+        }
+
+        .form {
+            width: 75%;
+
+        }
+
+        .search-input {
+
+            width: 50%;
+
+        }
+
+        .search-ville {
+            width: 55%;
+
+        }
+
+        input#ville {
+            font-size: 17px;
+
+        }
+
+        .boite_filtre {
+            width: 98%;
+        }
+
+        .filtre {
+            width: 100%;
+
+        }
+
+        p.titre {
+            margin-right: 10px;
+
+        }
+
+        .filter-item {
+            width: 23%;
+            padding: 0px;
+            margin-right: 10px;
+
+        }
+
+        p.animaux {
+            font-size: 14px;
+        }
+
+        .logement {
+            width: 100%;
+            height: 22px
+        }
+
+        i.fa-solid.fa-info.logement {
+            width: 64%;
+        }
+
+        .containerMain {
+            width: 96%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 940px;
+            padding: 0px;
+            margin: 0px;
+            margin-right: 0px;
+
+        }
+
+        .containerHebergement {
+            width: 100%;
+            margin: 0px;
+
+        }
+
+
+        .hebergCardDesc {
+            font-size: 15px;
+        }
+
+        aside.lesPopulaire {
+            width: 100%;
+            height: 240px;
+            margin: 0px;
+            display: block;
+            padding: 0px;
+
+        }
+
+        .populaireCard {
+            width: 91%;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .boite3 {
+            width: 98%;
+            height: 180px;
+            display: flex;
+            padding-left: 8px;
+
+        }
+
+        .titrePopulaireCard {
+            width: 100%;
+            height: 52px;
+        }
+
+        h2.populaire {
+            height: 30px;
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+
+        p.populaireCardDesc {
+            height: 46px;
+            padding: 0px;
+            margin: 0px;
+        }
+        .boiteActivite{
+            width: 95%;
+            height: 355px;
+            
+        }
+        section.container2{
+            height: 395px;
+        }
+        .actMarseilleCard{
+            height:343px ;
+        }
+        .actMarseilleCardImag{
+            height: 280px;
+        }
+
+        h2.actMarseille {
+            width: 90%;
+        }
+
+        footer.piedPage {
+            height: 260px;
+            width: 95%;
+
+        }
+
+        .boiteFooter {
+            height: 280px;
+            width: 95%;
+        }
+        .blocFooter{
+            width: 24%;
+        }
+
+    }
+
+
+    /* Code pour format de smarthphone */
+
+    @media only screen and (max-width: 767px) {
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+
+        header.entete {
+            height: 129px;
+            width: 100%;
+            display: block;
+            padding-top: 10px;
+        }
+
+        #logo {
+            width: 100%;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        nav.menu {
+            width: 100%;
+        }
+
+        .menu ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .menu .nav-item {
+            width: 50%;
+            text-align: center;
+            display: block;
+            padding: 20px;
+            min-height: inherit;
+            border-bottom: 2px solid #eee;
+        }
+
+        .menu .nav-item:hover {
+            border-top: 0px;
+            border-bottom: 2px solid #0065FC;
+        }
+
+        .boite {
+            width: 100%;
+            height: 70%;
+            margin-bottom: 15px;
+            padding-left: 10px;
+
+        }
+
+        h1.boite-title {
+            width: 100%;
+            height: 52px;
+            margin-right: 57px;
+            font-size: 22px;
+            margin-bottom: 8px;
+
+        }
+
+        p.boite-description {
+            height: 19px;
+            width: 100%;
+            margin-top: 8px;
+            font-size: 16px;
+
+        }
+
+        .form {
+            width: 100%;
+            height: 49px;
+            padding-left: 10px;
+
+
+        }
+
+        .search-input {
+            width: 90%;
+
+        }
+
+        .bouton {
+            display: none;
+        }
+
+        i.fa-solid.fa-magnifying-glass.iconeRecherche {
+            display: block;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .boite_filtre {
+            width: 100%;
+            height: 170px;
+            display: block;
+            padding-left: 10px;
+
+
+        }
+
+        .filtre {
+
+            width: 100%;
+            height: 134px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .filter-item {
+            width: 41%;
+        }
+
+        .containerMain {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 0px;
+            margin: 0px;
+
+
+        }
+
+        .logement {
+            width: 100%;
+            height: 50px;
+
+        }
+
+        aside.lesPopulaire {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            border-radius: 0px;
+
+
+        }
+
+        .partieTitrePop {
+            width: 96%;
+            font-size: 14px;
+
+        }
+
+        h2.populaire {
+            width: 71%;
+            margin: 0px;
+            height: 30px;
+        }
+
+        .containerHebergement {
+            width: 100%;
+            height: 1443px;
+            display: block;
+            padding: 0px;
+            border-radius: 0px;
+            margin-bottom: 20px;
+
+
+
+
+        }
+
+        h2.herberg {
+            width: 100%;
+            padding-top: 8px;
+        }
+
+        .boite1 {
+            width: 97%;
+            display: block;
+            height: 650px;
+            padding-left: 17px;
+            margin-right: 0px;
+
+        }
+
+        .hebergCard {
+            width: 92%;
+            margin: 0px;
+            height: 205px;
+            margin-right: 0px;
+            margin-bottom: 12px;
+
+        }
+
+        .boite2 {
+            width: 97%;
+            display: block;
+            height: 672px;
+            padding-left: 17px;
+            margin-right: 0px;
+
+        }
+
+        section.container2 {
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        h2.actMarseille {
+            width: 51%;
+            height: 60px;
+            padding-left: 10px;
+
+        }
+
+        .boiteActivite {
+            width: 100%;
+            height: auto;
+            display: block;
+
+        }
+
+        .actMarseilleCard {
+            width: 95%;
+            height: 200px;
+            margin-bottom: 17px;
+            padding-left: 10px;
+            margin-right: 0px;
+        }
+
+        .actMarseilleCardImag {
+            width: 100%;
+            height: 150px;
+        }
+
+        footer.piedPage {
+            width: 100%;
+            display: block;
+            height: 370px;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        .boiteFooter {
+            width: 100%;
+            display: block;
+            height: 367px;
+            padding-left: 10px;
+            padding-top: 1px;
+        }
+
+        .blocFooter {
+            width: 100%;
+            height: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
